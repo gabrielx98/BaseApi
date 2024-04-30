@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base", "Base\Base.csproj", "{34A6E758-DBE7-4310-A04D-99258A8F6661}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base.Api", "Base.Api\Base.Api.csproj", "{CC27896A-3A91-4335-901A-A128B40775C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base.Testes", "Base.Testes\Base.Testes.csproj", "{9FDFE6FE-F739-4378-AEB0-14C5AFAF05DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34A6E758-DBE7-4310-A04D-99258A8F6661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A6E758-DBE7-4310-A04D-99258A8F6661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A6E758-DBE7-4310-A04D-99258A8F6661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A6E758-DBE7-4310-A04D-99258A8F6661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC27896A-3A91-4335-901A-A128B40775C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC27896A-3A91-4335-901A-A128B40775C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC27896A-3A91-4335-901A-A128B40775C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC27896A-3A91-4335-901A-A128B40775C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDFE6FE-F739-4378-AEB0-14C5AFAF05DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDFE6FE-F739-4378-AEB0-14C5AFAF05DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDFE6FE-F739-4378-AEB0-14C5AFAF05DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDFE6FE-F739-4378-AEB0-14C5AFAF05DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA13AFAA-9E96-42B2-A68C-370F13E0E9E0}
+	EndGlobalSection
+EndGlobal
