@@ -42,7 +42,7 @@ namespace Base.Testes
 
             var content = await response.Content.ReadAsStringAsync();
             Console.WriteLine(content);
-            Console.WriteLine("Passou pelo teste de Not Found");
+            Console.WriteLine("Not Found");
 
             // Assert
             ClassicAssert.AreEqual(HttpStatusCode.NotFound, response.StatusCode); // Verifica se o código de status é 404 (NotFound)
@@ -61,6 +61,7 @@ namespace Base.Testes
 
             var content = await response.Content.ReadAsStringAsync();
             Console.WriteLine(content);
+            Console.WriteLine("OK");
 
             // Assert
             //response.EnsureSuccessStatusCode();
